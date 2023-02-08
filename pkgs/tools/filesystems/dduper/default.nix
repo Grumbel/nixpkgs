@@ -22,8 +22,8 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "lakshmipathi";
     repo = "dduper";
-    rev = "v${version}";
-    sha256 = "09ncdawxkffldadqhfblqlkdl05q2qmywxyg6p61fv3dr2f2v5wm";
+    rev = "ecc2664c380616ec75cfc1e600b5514cdff5c687";
+    sha256 = "sha256-NmYrHm6Ep+bJDp6NQK5+bIE2HYjKMy0X8+D1Tgh+woc=";
   };
 
   buildInputs = [
